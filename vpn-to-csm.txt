@@ -1,0 +1,10 @@
+As of 12/19/16
+
+Linux (Ubuntu 16.04)
+1.)  Go to vpn.mines.edu  
+2.)  Download you client.ovpn file.  This file is specific to you and is required
+     to vpn to mines.
+3.)  Move client.ovpn to a secure location on your computer, it is needed everytime
+     you vpn in to mines.
+4.)  Install openvpn using `sudo apt-get install openvpn`
+5.)  Configure and initialize vpn using `sudo openvpn --config client.ovpn`
